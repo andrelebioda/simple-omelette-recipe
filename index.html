@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple Omelette recipe" />
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <title>Simple Omelette Recipe</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header role="banner">
+        <picture>
+          <source media="(min-width: 768px)" srcset="/assets/hero-tablet-2x.jpg" />
+          <source media="(min-width: 1200px)" srcset="/assets/hero-2x.jpg" />
+          <img src="/assets/hero-mobile-2x.jpg" alt="Omelette" />
+        </picture>
+      </header>
+      <main role="main">
+        <section class="intro">
+          <h1 class="intro__headline txt-serif">Simple Omelette Recipe</h1>
+          <p class="intro__text txt-regular">
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your
+            choice of cheese, vegetables, or meats.
+          </p>
+          <div class="intro__box">
+            <legend class="intro__subheadline txt-semibold">Preparation time</legend>
+            <ul class="intro__list">
+              <li><strong>Total</strong>: Approximately 10 minutes</li>
+              <li><strong>Preparation</strong>: 5 minutes</li>
+              <li><strong>Cooking</strong>: 5 minutes</li>
+            </ul>
+          </div>
+        </section>
+        <section class="ingredients">
+          <h2 class="ingredients__headline txt-serif-sm">Ingredients</h2>
+          <ul class="ingredients__list">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+        </section>
+        <section class="instructions">
+          <h2 class="instructions__headline txt-serif-sm">Instructions</h2>
+          <ol class="instructions__lis">
+            <li data-index="1">
+              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a
+              tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li data-index="2"><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+            <li data-index="3">
+              <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
+              coat the surface.
+            </li>
+            <li data-index="4">
+              <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle
+              your chosen fillings over one half of the omelette.
+            </li>
+            <li data-index="5">
+              <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook
+              for another minute, then slide it onto a plate.
+            </li>
+            <li data-index="6"><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+          </ol>
+        </section>
+        <section class="nutrition">
+          <h2 class="nutrition__headline txt-serif-sm">Nutrition</h2>
+          <p class="nutrition__text txt-regular">The table below shows nutritional values per serving without the additional fillings.</p>
+          <table class="nutrition__table">
+            <tbody>
+              <tr>
+                <td>Calories</td>
+                <td>277kcal</td>
+              </tr>
+              <tr>
+                <td>Carbs</td>
+                <td>0g</td>
+              </tr>
+              <tr>
+                <td>Protein</td>
+                <td>20g</td>
+              </tr>
+              <tr>
+                <td>Fat</td>
+                <td>22g</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
